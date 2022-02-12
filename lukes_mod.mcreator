@@ -13,7 +13,7 @@
     "modid": "lukes_mod",
     "modName": "Luke\u0027s Mod",
     "version": "1.0.0",
-    "author": "glenn, MCreator",
+    "author": "Count_to_3, Corruptorr, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
@@ -23,6 +23,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.lukesmod",
     "lockBaseModFiles": false
   },
