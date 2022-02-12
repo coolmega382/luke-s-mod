@@ -2,14 +2,14 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "ruby_ore",
+    "texture": "rubyoretex",
     "textureTop": "ruby_ore",
     "textureLeft": "ruby_ore",
     "textureFront": "ruby_ore",
     "textureRight": "ruby_ore",
     "textureBack": "ruby_ore",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Rubyore",
+    "name": "Ruby Ore",
     "specialInfo": [],
     "hardness": 2.15,
     "resistance": 10.0,
@@ -77,7 +77,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 2,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -130,9 +130,9 @@
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 3,
-    "frequencyOnChunk": 6,
+    "frequencyPerChunks": 1,
+    "frequencyOnChunk": 20,
     "minGenerateHeight": 2,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 40
   }
 }

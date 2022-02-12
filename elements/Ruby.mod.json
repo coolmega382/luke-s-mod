@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ruby",
+    "texture": "rubytex",
     "customModelName": "Normal",
     "name": "Ruby",
     "rarity": "COMMON",
