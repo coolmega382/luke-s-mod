@@ -1,29 +1,17 @@
 
 package net.mcreator.lukesmod.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
-import net.minecraft.item.Rarity;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.client.util.ITooltipFlag;
-import net.minecraft.block.BlockState;
-
-import net.mcreator.lukesmod.LukesModModElements;
-
-import java.util.List;
+import net.minecraft.entity.ai.attributes.Attributes;
 
 @LukesModModElements.ModElement.Tag
 public class RubyItem extends LukesModModElements.ModElement {
+
 	@ObjectHolder("lukes_mod:ruby")
 	public static final Item block = null;
 
 	public RubyItem(LukesModModElements instance) {
 		super(instance, 3);
+
 	}
 
 	@Override
@@ -32,6 +20,7 @@ public class RubyItem extends LukesModModElements.ModElement {
 	}
 
 	public static class ItemCustom extends Item {
+
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("ruby");
@@ -57,5 +46,7 @@ public class RubyItem extends LukesModModElements.ModElement {
 			super.addInformation(itemstack, world, list, flag);
 			list.add(new StringTextComponent("Armour"));
 		}
+
 	}
+
 }

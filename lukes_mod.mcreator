@@ -9,6 +9,14 @@
       "registry_name": "sugeredwater"
     },
     {
+      "name": "Rubyore",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyore"
+    },
+    {
       "name": "Ruby",
       "type": "item",
       "sortid": 3,
@@ -17,12 +25,12 @@
       "registry_name": "ruby"
     },
     {
-      "name": "Rubyore",
-      "type": "block",
-      "sortid": 3,
+      "name": "SugarWaterRecipe",
+      "type": "recipe",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "rubyore"
+      "registry_name": "sugar_water_recipe"
     }
   ],
   "variable_elements": [],
