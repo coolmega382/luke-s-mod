@@ -2,10 +2,10 @@
   "_fv": 24,
   "_type": "potion",
   "definition": {
-    "potionName": "Potion of Sugeredwater",
-    "splashName": "Splash Potion of Sugeredwater",
-    "lingeringName": "Lingering Potion of Sugeredwater",
-    "arrowName": "Arrow of Sugeredwater",
+    "potionName": "Potion of Sugar Water",
+    "splashName": "Splash Potion of Sugar Water",
+    "lingeringName": "Lingering Potion of Sugar Water",
+    "arrowName": "Arrow of Sugar Water",
     "effects": [
       {
         "effect": {
