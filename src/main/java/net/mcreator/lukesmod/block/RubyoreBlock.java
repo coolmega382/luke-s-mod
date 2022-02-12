@@ -24,8 +24,6 @@ import net.minecraft.util.registry.Registry;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
-import net.minecraft.loot.LootContext;
-import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
@@ -35,12 +33,9 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.lukesmod.item.RubyItem;
 import net.mcreator.lukesmod.LukesModModElements;
 
 import java.util.Random;
-import java.util.List;
-import java.util.Collections;
 
 @LukesModModElements.ModElement.Tag
 public class RubyoreBlock extends LukesModModElements.ModElement {
@@ -69,14 +64,6 @@ public class RubyoreBlock extends LukesModModElements.ModElement {
 		@Override
 		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
 			return 15;
-		}
-
-		@Override
-		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
-			if (!dropsOriginal.isEmpty())
-				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(RubyItem.block));
 		}
 	}
 
@@ -116,7 +103,7 @@ public class RubyoreBlock extends LukesModModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 20)).range(40)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 8)).range(10)
 					.square().func_242731_b(1);
 			event.getRegistry().register(feature.setRegistryName("rubyore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("lukes_mod:rubyore"), configuredFeature);

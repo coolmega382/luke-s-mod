@@ -31,6 +31,54 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sugar_water_recipe"
+    },
+    {
+      "name": "RubyLoot",
+      "type": "loottable",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_loot"
+    },
+    {
+      "name": "DeadDirt",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_dirt"
+    },
+    {
+      "name": "DeadGrass",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_grass"
+    },
+    {
+      "name": "DeadWood",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_wood"
+    },
+    {
+      "name": "DeadLeaves",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_leaves"
+    },
+    {
+      "name": "DeadForest",
+      "type": "biome",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_forest"
     }
   ],
   "variable_elements": [],
@@ -40,9 +88,14 @@
       "item.lukes_mod.ruby": "Ruby",
       "item.minecraft.tipped_arrow.effect.sugeredwater": "Arrow of Sugeredwater",
       "item.minecraft.splash_potion.effect.sugeredwater": "Splash Potion of Sugeredwater",
+      "block.lukes_mod.dead_wood": "Dead Wood",
       "item.minecraft.lingering_potion.effect.sugeredwater": "Lingering Potion of Sugeredwater",
       "block.lukes_mod.rubyore": "Ruby Ore",
-      "item.minecraft.potion.effect.sugeredwater": "Potion of Sugeredwater"
+      "biome.lukes_mod.dead_forest": "Dead Forest",
+      "block.lukes_mod.dead_dirt": "Dead Dirt Block",
+      "block.lukes_mod.dead_grass": "Dead Grass Block",
+      "item.minecraft.potion.effect.sugeredwater": "Potion of Sugeredwater",
+      "block.lukes_mod.dead_leaves": "Dead Leaves"
     }
   },
   "foldersRoot": {
