@@ -7,15 +7,33 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sugeredwater"
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby"
+    },
+    {
+      "name": "Rubyore",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyore"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.lukes_mod.ruby": "Ruby",
       "item.minecraft.tipped_arrow.effect.sugeredwater": "Arrow of Sugeredwater",
       "item.minecraft.splash_potion.effect.sugeredwater": "Splash Potion of Sugeredwater",
       "item.minecraft.lingering_potion.effect.sugeredwater": "Lingering Potion of Sugeredwater",
+      "block.lukes_mod.rubyore": "Rubyore",
       "item.minecraft.potion.effect.sugeredwater": "Potion of Sugeredwater"
     }
   },
