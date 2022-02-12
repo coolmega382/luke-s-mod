@@ -28,7 +28,7 @@
       "name": "SugarWaterRecipe",
       "type": "recipe",
       "sortid": 2,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "sugar_water_recipe"
     }

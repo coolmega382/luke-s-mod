@@ -1,9 +1,18 @@
 
 package net.mcreator.lukesmod;
 
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.common.brewing.IBrewingRecipe;
+import net.minecraftforge.common.brewing.BrewingRecipeRegistry;
+
+import net.minecraft.potion.PotionUtils;
+import net.minecraft.item.Items;
+import net.minecraft.item.ItemStack;
+
+import net.mcreator.lukesmod.potion.SugeredwaterPotion;
+
 @LukesModModElements.ModElement.Tag
 public class SugarWaterRecipeBrewingRecipe extends LukesModModElements.ModElement {
-
 	public SugarWaterRecipeBrewingRecipe(LukesModModElements instance) {
 		super(instance, 2);
 	}
