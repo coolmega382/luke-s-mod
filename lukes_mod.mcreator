@@ -12,7 +12,7 @@
       "name": "Rubyore",
       "type": "block",
       "sortid": 3,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "rubyore"
     },
@@ -20,7 +20,7 @@
       "name": "Ruby",
       "type": "item",
       "sortid": 3,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "ruby"
     },
@@ -28,7 +28,7 @@
       "name": "SugarWaterRecipe",
       "type": "recipe",
       "sortid": 2,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "sugar_water_recipe"
     }
