@@ -116,7 +116,7 @@ public class RubyoreBlock extends LukesModModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 20)).range(40)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 6)).range(40)
 					.square().func_242731_b(1);
 			event.getRegistry().register(feature.setRegistryName("rubyore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("lukes_mod:rubyore"), configuredFeature);
