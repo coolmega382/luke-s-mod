@@ -1,8 +1,11 @@
 {
   "item.lukes_mod.ruby": "Ruby",
+  "advancements.rubyrich.descr": "Get a ruby",
   "item.minecraft.tipped_arrow.effect.sugeredwater": "Arrow of Sugeredwater",
   "item.minecraft.splash_potion.effect.sugeredwater": "Splash Potion of Sugeredwater",
   "item.minecraft.lingering_potion.effect.sugeredwater": "Lingering Potion of Sugeredwater",
   "block.lukes_mod.rubyore": "Ruby Ore",
+  "item.lukes_mod.bullet": "Bullet",
+  "advancements.rubyrich.title": "Rubyrich",
   "item.minecraft.potion.effect.sugeredwater": "Potion of Sugeredwater"
 }

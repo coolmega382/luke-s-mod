@@ -87,6 +87,22 @@
       "compiles": false,
       "locked_code": false,
       "registry_name": "dead_forest"
+    },
+    {
+      "name": "Bullet",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet"
+    },
+    {
+      "name": "Rubyrich",
+      "type": "achievement",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyrich"
     }
   ],
   "variable_elements": [],
@@ -94,10 +110,13 @@
   "language_map": {
     "en_us": {
       "item.lukes_mod.ruby": "Ruby",
+      "advancements.rubyrich.descr": "Get a ruby",
       "item.minecraft.tipped_arrow.effect.sugeredwater": "Arrow of Sugeredwater",
       "item.minecraft.splash_potion.effect.sugeredwater": "Splash Potion of Sugeredwater",
       "item.minecraft.lingering_potion.effect.sugeredwater": "Lingering Potion of Sugeredwater",
       "block.lukes_mod.rubyore": "Ruby Ore",
+      "item.lukes_mod.bullet": "Bullet",
+      "advancements.rubyrich.title": "Rubyrich",
       "item.minecraft.potion.effect.sugeredwater": "Potion of Sugeredwater"
     }
   },
