@@ -39,6 +39,54 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "rainforest"
+    },
+    {
+      "name": "DeadLeaves",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_leaves"
+    },
+    {
+      "name": "DeadGrass",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_grass"
+    },
+    {
+      "name": "RubyLoot",
+      "type": "loottable",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_loot"
+    },
+    {
+      "name": "DeadWood",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_wood"
+    },
+    {
+      "name": "DeadDirt",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_dirt"
+    },
+    {
+      "name": "DeadForest",
+      "type": "biome",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_forest"
     }
   ],
   "variable_elements": [],
@@ -46,11 +94,10 @@
   "language_map": {
     "en_us": {
       "item.lukes_mod.ruby": "Ruby",
-      "item.minecraft.tipped_arrow.effect.sugeredwater": "Arrow of Sugeredwater",
       "item.minecraft.splash_potion.effect.sugeredwater": "Splash Potion of Sugeredwater",
-      "biome.lukes_mod.rainforest": "Rainforest",
-      "item.minecraft.lingering_potion.effect.sugeredwater": "Lingering Potion of Sugeredwater",
       "block.lukes_mod.rubyore": "Ruby Ore",
+      "item.minecraft.tipped_arrow.effect.sugeredwater": "Arrow of Sugeredwater",
+      "item.minecraft.lingering_potion.effect.sugeredwater": "Lingering Potion of Sugeredwater",
       "item.minecraft.potion.effect.sugeredwater": "Potion of Sugeredwater"
     }
   },

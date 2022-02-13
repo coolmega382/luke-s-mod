@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lukes_mod:blocks/deaddirt",
+    "up": "lukes_mod:blocks/deaddirt",
+    "north": "lukes_mod:blocks/deadgrass",
+    "east": "lukes_mod:blocks/deadgrass",
+    "south": "lukes_mod:blocks/deadgrass",
+    "west": "lukes_mod:blocks/deadgrass",
+    "particle": "lukes_mod:blocks/deaddirt"
+  }
+}
