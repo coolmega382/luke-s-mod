@@ -12,7 +12,7 @@
       "name": "Rubyore",
       "type": "block",
       "sortid": 3,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "rubyore"
     },
@@ -36,7 +36,7 @@
       "name": "Rainforest",
       "type": "biome",
       "sortid": 4,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "rainforest"
     },
@@ -44,7 +44,7 @@
       "name": "DeadLeaves",
       "type": "block",
       "sortid": 8,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "dead_leaves"
     },
@@ -52,7 +52,7 @@
       "name": "DeadGrass",
       "type": "block",
       "sortid": 6,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "dead_grass"
     },
@@ -68,7 +68,7 @@
       "name": "DeadWood",
       "type": "block",
       "sortid": 7,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "dead_wood"
     },
@@ -76,7 +76,7 @@
       "name": "DeadDirt",
       "type": "block",
       "sortid": 5,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "dead_dirt"
     },
@@ -84,7 +84,7 @@
       "name": "DeadForest",
       "type": "biome",
       "sortid": 5,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "dead_forest"
     }
@@ -94,10 +94,10 @@
   "language_map": {
     "en_us": {
       "item.lukes_mod.ruby": "Ruby",
-      "item.minecraft.splash_potion.effect.sugeredwater": "Splash Potion of Sugeredwater",
-      "block.lukes_mod.rubyore": "Ruby Ore",
       "item.minecraft.tipped_arrow.effect.sugeredwater": "Arrow of Sugeredwater",
+      "item.minecraft.splash_potion.effect.sugeredwater": "Splash Potion of Sugeredwater",
       "item.minecraft.lingering_potion.effect.sugeredwater": "Lingering Potion of Sugeredwater",
+      "block.lukes_mod.rubyore": "Ruby Ore",
       "item.minecraft.potion.effect.sugeredwater": "Potion of Sugeredwater"
     }
   },
